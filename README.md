@@ -65,19 +65,32 @@ LogisticRegression’s __init__() and forward() methods.
 regularization. Make sure to include all the hyperparameters and training/model design
 choices shown in Table 1. Use the values presented in the table as default. Tune each of
 these hyperparameters while leaving the remaining at their default value:
+
 • The learning rate: {0.001, 0.01, 0.1}.
-Page 2
+
 • The hidden size: {100, 200}.
+
 • The dropout probability: {0.3, 0.5}.
+
 • The activation function: relu and tanh.
+
+--------------------------
 Number of Epochs 20
+
 Learning Rate 0.01
+
 Hidden Size 100
+
 Dropout 0.3
 Batch Size 16
+
 Activation ReLU
+
 Optimizer SGD
+
 Table 1: Default hyperparameters.
+----------------------------
+
 Report your best configuration, make similar plots as in the previous question, and report
 the final test accuracy.
 In the skeleton code, you will need to implement the class FeedforwardNetwork’s __init__()

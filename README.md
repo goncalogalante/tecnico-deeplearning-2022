@@ -31,8 +31,11 @@ method in the LogisticRegression class. You can do this with the command
 python hw1-q1.py logistic_regression
 2. Now, you will implement a multi-layer perceptron (a feed-forward neural network) again
 using as input the original feature representation (i.e. simple independent pixel values).
-1
+<p align="center">
+  <img width="480" height="200" src="Screenshot_1.png">
+</p>
 Figure 1: Examples of images from the Kuzushiji-MNIST dataset.
+
 (a) (5 points) Justify briefly why multi-layer perceptrons with non-linear activations are
 more expressive than the simple perceptron implemented above, and what kind of
 limitations they overcome for this particular task. Is this still the case if the activation

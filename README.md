@@ -1,7 +1,7 @@
-# Deep Learning (IST, 2022-23)
-# Homework 1
+# Deep Learning (IST, 2022-23) | Homework 1
 André Martins, Ben Peters, Margarida Campos
 Deadline: Friday, December 23, 2022.
+
 Please turn in the answers to the questions below in a PDF file, together with the
 code you implemented to solve them (when applicable).
 IMPORTANT: Please write 1 paragraph indicating clearly what was the
@@ -123,4 +123,4 @@ Q
 n=1
 (ˆyn(xn; cΘ) − yn)2.
 Can we find a closed form solution ˆcΘ? Comment on the fact that global minimization is
-usually intractable for feedforward neural networks – what makes our problem specia
+usually intractable for feedforward neural networks – what makes our problem special?

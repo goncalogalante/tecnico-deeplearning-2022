@@ -77,22 +77,11 @@ these hyperparameters while leaving the remaining at their default value:
 
 • The activation function: relu and tanh.
 
---------------------------
-Number of Epochs 20
-
-Learning Rate 0.01
-
-Hidden Size 100
-
-Dropout 0.3
-Batch Size 16
-
-Activation ReLU
-
-Optimizer SGD
+<p align="center">
+  <img width="320" height="200" src="Screenshot_2.png">
+</p>
 
 Table 1: Default hyperparameters.
-----------------------------
 
 Report your best configuration, make similar plots as in the previous question, and report
 the final test accuracy.
